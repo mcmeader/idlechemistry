@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12691C6277E22DA00F34276 /* ElementaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12691C5277E22DA00F34276 /* ElementaryModel.swift */; };
+		C1868E15270E686D00D5F0BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1868E14270E686D00D5F0BB /* AppDelegate.swift */; };
+		C1868E17270E686D00D5F0BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1868E16270E686D00D5F0BB /* SceneDelegate.swift */; };
+		C1868E1C270E686D00D5F0BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1868E1A270E686D00D5F0BB /* Main.storyboard */; };
+		C1868E1E270E687100D5F0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1868E1D270E687100D5F0BB /* Assets.xcassets */; };
+		C1868E21270E687100D5F0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1868E1F270E687100D5F0BB /* LaunchScreen.storyboard */; };
+		C1868E2C270E687200D5F0BB /* IdleChemistryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1868E2B270E687200D5F0BB /* IdleChemistryTests.swift */; };
+		C1868E36270E687200D5F0BB /* IdleChemistryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1868E35270E687200D5F0BB /* IdleChemistryUITests.swift */; };
+		C1868E38270E687200D5F0BB /* IdleChemistryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1868E37270E687200D5F0BB /* IdleChemistryUITestsLaunchTests.swift */; };
+		C1868E49271D15AD00D5F0BB /* SubAtomicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1868E48271D15AD00D5F0BB /* SubAtomicViewController.swift */; };
+		C1868E4B271D15DF00D5F0BB /* ElementaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1868E4A271D15DF00D5F0BB /* ElementaryViewController.swift */; };
+		C1868E4E271D167500D5F0BB /* ElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1868E4D271D167500D5F0BB /* ElementsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1868E28270E687200D5F0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1868E09270E686C00D5F0BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1868E10270E686D00D5F0BB;
+			remoteInfo = IdleChemistry;
+		};
+		C1868E32270E687200D5F0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1868E09270E686C00D5F0BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1868E10270E686D00D5F0BB;
+			remoteInfo = IdleChemistry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C12691C5277E22DA00F34276 /* ElementaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementaryModel.swift; sourceTree = "<group>"; };
+		C1868E11270E686D00D5F0BB /* IdleChemistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdleChemistry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1868E14270E686D00D5F0BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1868E16270E686D00D5F0BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1868E1B270E686D00D5F0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1868E1D270E687100D5F0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1868E20270E687100D5F0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1868E22270E687100D5F0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1868E27270E687200D5F0BB /* IdleChemistryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdleChemistryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1868E2B270E687200D5F0BB /* IdleChemistryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleChemistryTests.swift; sourceTree = "<group>"; };
+		C1868E31270E687200D5F0BB /* IdleChemistryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdleChemistryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1868E35270E687200D5F0BB /* IdleChemistryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleChemistryUITests.swift; sourceTree = "<group>"; };
+		C1868E37270E687200D5F0BB /* IdleChemistryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleChemistryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1868E48271D15AD00D5F0BB /* SubAtomicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubAtomicViewController.swift; sourceTree = "<group>"; };
+		C1868E4A271D15DF00D5F0BB /* ElementaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementaryViewController.swift; sourceTree = "<group>"; };
+		C1868E4D271D167500D5F0BB /* ElementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1868E0E270E686D00D5F0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1868E24270E687200D5F0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1868E2E270E687200D5F0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1868E08270E686C00D5F0BB = {
+			isa = PBXGroup;
+			children = (
+				C1868E13270E686D00D5F0BB /* IdleChemistry */,
+				C1868E2A270E687200D5F0BB /* IdleChemistryTests */,
+				C1868E34270E687200D5F0BB /* IdleChemistryUITests */,
+				C1868E12270E686D00D5F0BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1868E12270E686D00D5F0BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1868E11270E686D00D5F0BB /* IdleChemistry.app */,
+				C1868E27270E687200D5F0BB /* IdleChemistryTests.xctest */,
+				C1868E31270E687200D5F0BB /* IdleChemistryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1868E13270E686D00D5F0BB /* IdleChemistry */ = {
+			isa = PBXGroup;
+			children = (
+				C1868E4C271D162500D5F0BB /* Elements */,
+				C1868E47271D156300D5F0BB /* SubAtomic */,
+				C1868E44271D14C100D5F0BB /* Elementary */,
+				C1868E14270E686D00D5F0BB /* AppDelegate.swift */,
+				C1868E16270E686D00D5F0BB /* SceneDelegate.swift */,
+				C1868E1A270E686D00D5F0BB /* Main.storyboard */,
+				C1868E1D270E687100D5F0BB /* Assets.xcassets */,
+				C1868E1F270E687100D5F0BB /* LaunchScreen.storyboard */,
+				C1868E22270E687100D5F0BB /* Info.plist */,
+			);
+			path = IdleChemistry;
+			sourceTree = "<group>";
+		};
+		C1868E2A270E687200D5F0BB /* IdleChemistryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1868E2B270E687200D5F0BB /* IdleChemistryTests.swift */,
+			);
+			path = IdleChemistryTests;
+			sourceTree = "<group>";
+		};
+		C1868E34270E687200D5F0BB /* IdleChemistryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1868E35270E687200D5F0BB /* IdleChemistryUITests.swift */,
+				C1868E37270E687200D5F0BB /* IdleChemistryUITestsLaunchTests.swift */,
+			);
+			path = IdleChemistryUITests;
+			sourceTree = "<group>";
+		};
+		C1868E44271D14C100D5F0BB /* Elementary */ = {
+			isa = PBXGroup;
+			children = (
+				C1868E4A271D15DF00D5F0BB /* ElementaryViewController.swift */,
+				C12691C5277E22DA00F34276 /* ElementaryModel.swift */,
+			);
+			path = Elementary;
+			sourceTree = "<group>";
+		};
+		C1868E47271D156300D5F0BB /* SubAtomic */ = {
+			isa = PBXGroup;
+			children = (
+				C1868E48271D15AD00D5F0BB /* SubAtomicViewController.swift */,
+			);
+			path = SubAtomic;
+			sourceTree = "<group>";
+		};
+		C1868E4C271D162500D5F0BB /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				C1868E4D271D167500D5F0BB /* ElementsViewController.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1868E10270E686D00D5F0BB /* IdleChemistry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1868E3B270E687200D5F0BB /* Build configuration list for PBXNativeTarget "IdleChemistry" */;
+			buildPhases = (
+				C1868E0D270E686D00D5F0BB /* Sources */,
+				C1868E0E270E686D00D5F0BB /* Frameworks */,
+				C1868E0F270E686D00D5F0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IdleChemistry;
+			productName = IdleChemistry;
+			productReference = C1868E11270E686D00D5F0BB /* IdleChemistry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1868E26270E687200D5F0BB /* IdleChemistryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1868E3E270E687200D5F0BB /* Build configuration list for PBXNativeTarget "IdleChemistryTests" */;
+			buildPhases = (
+				C1868E23270E687200D5F0BB /* Sources */,
+				C1868E24270E687200D5F0BB /* Frameworks */,
+				C1868E25270E687200D5F0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1868E29270E687200D5F0BB /* PBXTargetDependency */,
+			);
+			name = IdleChemistryTests;
+			productName = IdleChemistryTests;
+			productReference = C1868E27270E687200D5F0BB /* IdleChemistryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1868E30270E687200D5F0BB /* IdleChemistryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1868E41270E687200D5F0BB /* Build configuration list for PBXNativeTarget "IdleChemistryUITests" */;
+			buildPhases = (
+				C1868E2D270E687200D5F0BB /* Sources */,
+				C1868E2E270E687200D5F0BB /* Frameworks */,
+				C1868E2F270E687200D5F0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1868E33270E687200D5F0BB /* PBXTargetDependency */,
+			);
+			name = IdleChemistryUITests;
+			productName = IdleChemistryUITests;
+			productReference = C1868E31270E687200D5F0BB /* IdleChemistryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1868E09270E686C00D5F0BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C1868E10270E686D00D5F0BB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C1868E26270E687200D5F0BB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C1868E10270E686D00D5F0BB;
+					};
+					C1868E30270E687200D5F0BB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C1868E10270E686D00D5F0BB;
+					};
+				};
+			};
+			buildConfigurationList = C1868E0C270E686C00D5F0BB /* Build configuration list for PBXProject "IdleChemistry" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1868E08270E686C00D5F0BB;
+			productRefGroup = C1868E12270E686D00D5F0BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1868E10270E686D00D5F0BB /* IdleChemistry */,
+				C1868E26270E687200D5F0BB /* IdleChemistryTests */,
+				C1868E30270E687200D5F0BB /* IdleChemistryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1868E0F270E686D00D5F0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1868E21270E687100D5F0BB /* LaunchScreen.storyboard in Resources */,
+				C1868E1E270E687100D5F0BB /* Assets.xcassets in Resources */,
+				C1868E1C270E686D00D5F0BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1868E25270E687200D5F0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1868E2F270E687200D5F0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1868E0D270E686D00D5F0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1868E15270E686D00D5F0BB /* AppDelegate.swift in Sources */,
+				C12691C6277E22DA00F34276 /* ElementaryModel.swift in Sources */,
+				C1868E17270E686D00D5F0BB /* SceneDelegate.swift in Sources */,
+				C1868E4B271D15DF00D5F0BB /* ElementaryViewController.swift in Sources */,
+				C1868E49271D15AD00D5F0BB /* SubAtomicViewController.swift in Sources */,
+				C1868E4E271D167500D5F0BB /* ElementsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1868E23270E687200D5F0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1868E2C270E687200D5F0BB /* IdleChemistryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1868E2D270E687200D5F0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1868E36270E687200D5F0BB /* IdleChemistryUITests.swift in Sources */,
+				C1868E38270E687200D5F0BB /* IdleChemistryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1868E29270E687200D5F0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1868E10270E686D00D5F0BB /* IdleChemistry */;
+			targetProxy = C1868E28270E687200D5F0BB /* PBXContainerItemProxy */;
+		};
+		C1868E33270E687200D5F0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1868E10270E686D00D5F0BB /* IdleChemistry */;
+			targetProxy = C1868E32270E687200D5F0BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1868E1A270E686D00D5F0BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1868E1B270E686D00D5F0BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1868E1F270E687100D5F0BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1868E20270E687100D5F0BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1868E39270E687200D5F0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1868E3A270E687200D5F0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1868E3C270E687200D5F0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 682P772SZT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IdleChemistry/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amo.IdleChemistry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1868E3D270E687200D5F0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 682P772SZT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IdleChemistry/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amo.IdleChemistry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1868E3F270E687200D5F0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 682P772SZT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amo.IdleChemistryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IdleChemistry.app/IdleChemistry";
+			};
+			name = Debug;
+		};
+		C1868E40270E687200D5F0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 682P772SZT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amo.IdleChemistryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IdleChemistry.app/IdleChemistry";
+			};
+			name = Release;
+		};
+		C1868E42270E687200D5F0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 682P772SZT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amo.IdleChemistryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IdleChemistry;
+			};
+			name = Debug;
+		};
+		C1868E43270E687200D5F0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 682P772SZT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amo.IdleChemistryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IdleChemistry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1868E0C270E686C00D5F0BB /* Build configuration list for PBXProject "IdleChemistry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1868E39270E687200D5F0BB /* Debug */,
+				C1868E3A270E687200D5F0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1868E3B270E687200D5F0BB /* Build configuration list for PBXNativeTarget "IdleChemistry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1868E3C270E687200D5F0BB /* Debug */,
+				C1868E3D270E687200D5F0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1868E3E270E687200D5F0BB /* Build configuration list for PBXNativeTarget "IdleChemistryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1868E3F270E687200D5F0BB /* Debug */,
+				C1868E40270E687200D5F0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1868E41270E687200D5F0BB /* Build configuration list for PBXNativeTarget "IdleChemistryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1868E42270E687200D5F0BB /* Debug */,
+				C1868E43270E687200D5F0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1868E09270E686C00D5F0BB /* Project object */;
+}
